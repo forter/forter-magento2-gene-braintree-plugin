@@ -4,14 +4,14 @@ namespace Forter\Braintree\Plugin\Braintree\Gateway\Response;
 
 use Forter\Forter\Model\AbstractApi;
 use Forter\Forter\Model\Config;
-use Magento\Braintree\Gateway\Helper\SubjectReader;
-use Magento\Braintree\Gateway\Response\CardDetailsHandler as OrigCardDetailsHandler;
+use Paypal\Braintree\Gateway\Helper\SubjectReader;
+use Paypal\Braintree\Gateway\Response\CardDetailsHandler as OrigCardDetailsHandler;
 
 class CardDetailsHandler
 {
 
     /**
-     * A plugin that wraps the 'Magento\Braintree\Gateway\Response\CardDetailsHandler' class.
+     * A plugin that wraps the 'Paypal\Braintree\Gateway\Response\CardDetailsHandler' class.
      * It's purpose is to extract the cc bin from the gateway request and save it on the order object in order to send it to Forter later.
      */
 
