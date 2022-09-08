@@ -1,0 +1,26 @@
+{
+    "name": "paypal/module-braintree-core",
+    "description": "Fork from the Magento Braintree 2.2.0 module by Gene Commerce for PayPal.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.1",
+    "require": {
+        "magento/product-community-edition": ">=2.4.0"
+    },
+    "authors": [
+        {
+            "name": "Forter Dev",
+            "email": "support@forter.com",
+            "role": "Developer",
+            "homepage": "https://www.forter.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Forter\\Forter\\": ""
+        }
+    }
+}
