@@ -4,8 +4,8 @@ namespace Forter\Braintree\Plugin\Braintree\Gateway\Response;
 
 use Forter\Forter\Model\AbstractApi;
 use Forter\Forter\Model\Config;
-use Magento\Paypal\Gateway\Helper\SubjectReader;
-use Magento\Paypal\Gateway\Response\CardDetailsHandler as OrigCardDetailsHandler;
+use Paypal\Braintree\Gateway\Helper\SubjectReader;
+use Paypal\Braintree\Gateway\Response\CardDetailsHandler as OrigCardDetailsHandler;
 
 class CardDetailsHandler
 {
