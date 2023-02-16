@@ -1,6 +1,6 @@
 {
-    "name": "forter-paypal/module-braintree-core",
-    "description": "Fork from the Magento Braintree 2.2.0 module by Gene Commerce for PayPal.",
+    "name": "forter/forter-magento2-gene-braintree-plugin",
+    "description": "Braintree Extension for Forter Fraud Prevention For Magento 2",
     "type": "magento2-module",
     "license": "proprietary",
     "version": "1.0.1",
@@ -20,7 +20,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Forter\\Forter\\": ""
+            "Forter\\Braintree\\": ""
         }
     }
 }
